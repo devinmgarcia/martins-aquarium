@@ -1,0 +1,23 @@
+.fish__image {
+    max-width: 22rem;
+    max-height: 11rem;
+}
+
+.fishes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.fish {
+    margin: 1rem;
+    text-align: center;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fish__name-text {
+    /* color: #FF5733; */
+    color: black;
+}

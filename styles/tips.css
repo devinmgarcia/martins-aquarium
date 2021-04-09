@@ -1,0 +1,16 @@
+.tipsHeader {
+    text-align: center;
+}
+
+.tips {
+    margin-right: 4rem;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    background-color: #9be0ec;
+    padding: 1rem;
+}
+
+.tip {
+    text-align: center;
+    margin: .8rem;
+    list-style: circle;
+}

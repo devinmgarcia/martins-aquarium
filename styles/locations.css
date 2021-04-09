@@ -1,0 +1,18 @@
+.location__image {
+    max-width: 22rem;
+    max-height: 11rem;
+}
+
+.locations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.location {
+    margin: 1rem;
+    text-align: center;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}

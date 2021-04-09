@@ -5,22 +5,135 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Martin's Aquarium</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,100&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">Welcome To Martin's Aquarium</header>
+    <header class="header"><h1>Welcome To Martin's Aquarium</h1></header>
     <main class="container">
+        <div class="sidebar"></div>
         <article class="flex-container-left">
+            <h3 class="section-text">Some of the fish I have harvested:</h3>
             <section class="fishes">
                 <div class="fish">
-                    <div class="fish__name"></div>
-                    <div class="fish__image"></div>
-                    <div class="fish__species"></div>
-                    <div class="fish__length"></div>
-                    <div class="fish__location"></div>
-                    <div class="fish__food"></div>
+                    <div class="fish__name"><h2 class="fish__name-text">Jeff</h2></div>
+                    <div>
+                        <img class="fish__image" src="img/catfish.jpg" alt="">
+                    </div>
+                    <div class="fish__species">Species: Catfish</div>
+                    <div class="fish__length">Length: 2.5ft</div>
+                    <div class="fish__location">Harvested at: Back Alley</div>
+                    <div class="fish__food">Diet: Tuna</div>
+                </div>
+                <div class="fish">
+                    <div class="fish__name"><h2 class="fish__name-text">Steve</h2></div>
+                    <div class="fish__image">
+                        <img class="fish__image" src="img/dogfish.jpg" alt="">
+                    </div>
+                    <div class="fish__species">Species: Dogfish</div>
+                    <div class="fish__length">Length: 4ft</div>
+                    <div class="fish__location">Harvested at: Junkyard</div>
+                    <div class="fish__food">Diet: Kibble</div>
+                </div>
+                <div class="fish">
+                    <div class="fish__name"><h2 class="fish__name-text">Chelsea</h2></div>
+                    <div class="fish__image">
+                        <img class="fish__image" src="img/bearfish.jpg" alt="">
+                    </div>
+                    <div class="fish__species">Species: Bearfish</div>
+                    <div class="fish__length">Length: 7ft</div>
+                    <div class="fish__location">Harvested at: North Pole</div>
+                    <div class="fish__food">Diet: Seal(The Artist)</div>
+                </div>
+                <div class="fish">
+                    <div class="fish__name"><h2 class="fish__name-text">Willy</h2></div>
+                    <div class="fish__image">
+                        <img class="fish__image" src="img/pigfish.jpg" alt="">
+                    </div>
+                    <div class="fish__species">Species: Pigfish</div>
+                    <div class="fish__length">Length: 3ft</div>
+                    <div class="fish__location">Harvested at: Barn</div>
+                    <div class="fish__food">Diet: Literally Anything</div>
+                </div>
+                <div class="fish">
+                    <div class="fish__name"><h2 class="fish__name-text">Susan</h2></div>
+                    <div class="fish__image">
+                        <img class="fish__image" src="img/elephantfish.jpeg" alt="">
+                    </div>
+                    <div class="fish__species">Species: Elephantfish</div>
+                    <div class="fish__length">Length: 20ft</div>
+                    <div class="fish__location">Harvested at: Congo River Basin</div>
+                    <div class="fish__food">Diet: Peanuts</div>
+                </div>
+                <div class="fish">
+                    <div class="fish__name"><h2 class="fish__name-text">Bradford</h2></div>
+                    <div class="fish__image">
+                        <img class="fish__image" src="img/tigerfish.png" alt="">
+                    </div>
+                    <div class="fish__species">Species: Tigerfish</div>
+                    <div class="fish__length">Length: 6ft</div>
+                    <div class="fish__location">Harvested at: Jungle</div>
+                    <div class="fish__food">Diet: Whatever He Wants.</div>
+                </div>
+            </section>
+            <section class="quotes">
+                <div class="quote">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit totam ad earum ipsum voluptatum dolorum, aperiam ex exercitationem fuga quod corporis consequatur nesciunt doloremque repellendus cumque soluta nostrum quis sint."</div>
+                <div class="quote">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit totam ad earum ipsum voluptatum dolorum, aperiam ex exercitationem fuga quod corporis consequatur nesciunt doloremque repellendus cumque soluta nostrum quis sint."</div>
+                <div class="quote">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit totam ad earum ipsum voluptatum dolorum, aperiam ex exercitationem fuga quod corporis consequatur nesciunt doloremque repellendus cumque soluta nostrum quis sint."</div>
+                <div class="quote">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit totam ad earum ipsum voluptatum dolorum, aperiam ex exercitationem fuga quod corporis consequatur nesciunt doloremque repellendus cumque soluta nostrum quis sint."</div>
+            </section>
+            <h3 class="section-text">Places I have traveled to harvest:</h3>
+            <section class="locations">
+                <div class="location">
+                    <div>
+                        <img class="location__image" src="img/jungle.jpg" alt="">
+                    </div>
+                    <div class="location__name">Location: The Jungle</div>
+                    <div class="location__fish-harvested">Harvested here: Tigerfish</div>
+                </div>
+                <div class="location">
+                    <div>
+                        <img class="location__image" src="img/congoriverbasin.jpg" alt="">
+                    </div>
+                    <div class="location__name">Location: Congo River Basin</div>
+                    <div class="location__fish-harvested">Harvested here: Elefantfish</div>
+                </div>
+                <div class="location">
+                    <div>
+                        <img class="location__image" src="img/northpole.jpg" alt="">
+                    </div>
+                    <div class="location__name">Location: The North Pole</div>
+                    <div class="location__fish-harvested">Harvested here: Bearfish</div>
                 </div>
             </section>
         </article>
+        <aside class="tips">
+            <h2 class="tipsHeader">Tips</h2>
+            <ul>
+                <li class="tip">Here is a  tip for a placeholder.</li>
+                <li class="tip">Here is a sample tip for a placeholder.</li>
+                <li class="tip">Here sample tip for a placeholder.</li>
+                <li class="tip">Here is a sample tip fplaceholder.</li>
+                <li class="tip">Here is a sample tip for a placeholder.</li>
+                <li class="tip">Here is a sample tip for a placeholder.</li>
+                <li class="tip">Here is a se tip for a placeholder.</li>
+                <li class="tip">Here is a sample tip for a placeholder.</li>
+                <li class="tip">Here is a sample tip for a placeholder.</li>
+                <li class="tip">Here is a sample tip eholder.</li>
+                <li class="tip">Here is a ple tip for a placeholder.</li>
+                <li class="tip">Here is a sample tip for a placeholder.</li>
+                <li class="tip">Here is ar a placeholder.</li>
+                <li class="tip">Here is a sample tip a placeholder.</li>
+                <li class="tip">Here is a sample tip for a placeholder.</li>
+                <li class="tip">Here is a sample tip for a placeholder.</li>
+                <li class="tip">Here is a  tip for a placeholder.</li>
+
+            </ul>
+        </aside>
+        <div class="sidebar"></div>
     </main>
 </body>
 </html>
