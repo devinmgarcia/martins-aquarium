@@ -1,6 +1,6 @@
 // Import the function that returns a copy of the fish array
 
-import { getFishes } from "./database.js"
+import { getFishes } from "../database.js"
 
 export const FishList = () => {
     // Invoke the function that you imported from the database module
@@ -21,13 +21,14 @@ export const FishList = () => {
             <div class="fish__location">${fish.location}</div>
             <div class="fish__diet">${fish.food}</div>
         </section>
-`
+        `
     }
-    htmlString += `</article>`
 
-    return htmlString
+    htmlString += `</article>`;
+
+    return htmlString;
 }
 
-const target = document.querySelector(".dynamic")                      
+const target = document.querySelector(".dynamicFish")                   
 
 target.innerHTML = FishList();
